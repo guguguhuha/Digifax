@@ -1,0 +1,114 @@
+% !Mode:: "TeX:UTF-8"
+%!TEX program  = xelatex
+
+%\documentclass{cumcmthesis}
+\documentclass[withoutpreface,bwprint]{cumcmthesis} %去掉封面与编号页
+
+\usepackage{subfigure}	%用于排版多张图片
+\usepackage{float}	%用于排版图片位置
+\bibliographystyle{plain}	%引用样式,参考文献
+
+\usepackage{url}
+\title{题目}
+
+\begin{document}
+    
+    \maketitle
+    \begin{abstract}
+        
+        摘要
+        
+        
+        \keywords{关键词\quad 关键词\quad    }
+        
+    \end{abstract}
+    
+    %目录
+    %\tableofcontents
+    
+    %新的一页
+    %\newpage
+    
+    \section{问题重述}
+    
+    \subsection{问题背景}
+    
+
+    
+    \subsection{问题重述}
+    
+
+    
+    \section{问题分析}
+    
+    \subsection{问题一}
+    
+
+    
+    \subsection{问题二}
+    
+
+    
+    \subsection{问题三}
+    
+
+    
+    \subsection{问题四}
+    
+
+    
+    
+    \section{模型的假设}
+
+    \section{符号说明}
+
+    \section{问题一}
+    
+    \section{问题二}
+    
+    \section{问题三的模型建立与求解}
+    
+    \subsection{模型建立}
+    
+    \subsection{模型求解}
+    
+    \section{问题四}
+    
+    \section{优缺点分析}
+    
+    \subsection{优点}
+     
+    \subsection{缺点}
+    
+    
+    %最后采用的是外面导入bib文件形式
+    \bibliography{book}
+    
+    \newpage
+    %附录
+    \appendix
+    \section{排队论源代码}
+    \begin{lstlisting}[language=lingo]
+        code
+\end{lstlisting}
+\section{未调度利润与阈值对比图}
+\begin{lstlisting}[language=matlab]
+    code
+\end{lstlisting}
+\section{调度利润与阈值对比图}
+\begin{lstlisting}[language=matlab]
+    code
+\end{lstlisting}
+\section{灵敏度分析}
+\begin{lstlisting}[language=matlab]
+    code
+\end{lstlisting}
+\section{最优解}
+\begin{lstlisting}[language=matlab]
+    code
+\end{lstlisting}
+\section{预测}
+\begin{lstlisting}[language=matlab]
+    code
+\end{lstlisting}
+\end{document} 
